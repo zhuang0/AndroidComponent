@@ -1,0 +1,19 @@
+1.友盟统计要在主项目里AndroidManifest.xml配置如下：
+<manifest……>
+    <application ……>
+    ……
+       <activity ……/>
+       <service
+          android:name="com.umeng.common.net.DownloadingService"
+          android:process=":DownloadingService" >
+       </service>
+  <meta-data android:value="YOUR_APP_KEY" android:name="UMENG_APPKEY"></meta-data>
+  <meta-data android:value="Channel ID" android:name="UMENG_CHANNEL"/>
+    </application>
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+  <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+  <uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
+</manifest>
+继承UILApplication并且配置到项目AndroidManifest.xml
+ 

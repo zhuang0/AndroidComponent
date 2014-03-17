@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="utk_app_list_header_refresh_last_update">上次更新于:%s</string>
+    <string name="utk_app_list_header_refresh_last_load">上次加载于:%s</string>
+    <string name="utk_pull_to_refresh_pull_label">下拉刷新</string>
+    <string name="utk_pull_to_refresh_release_label">松开后刷新</string>
+    <string name="utk_pull_to_refresh_refreshing_label">刷新中\u2026</string>
+    <string name="utk_pull_to_refresh_footer_release_label">松开后加载</string>
+    <string name="utk_pull_to_refresh_footer_pull_label">上拉加载更多</string>
+    <string name="utk_pull_to_refresh_footer_refreshing_label">加载中\u2026</string>
+
+</resources>
